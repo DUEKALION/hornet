@@ -1,0 +1,49 @@
+:root {
+    
+    /* Primary: Cocoa Brown */
+    --primary-100: #FFF9F2;
+    --primary-200: #FCE9D9;
+    --primary-300: #E6C7B2;
+    --primary-400: #A98674;
+    --primary-500: #33241F;
+    --primary-600: #301D17;
+    --primary-700: #2D1713;
+    --primary-800: #291311;
+    --primary-900: #26100F;
+
+    /* Accent: Field Green */
+    --accent-100: #F5FFF2;
+    --accent-200: #CFFEBF;
+    --accent-300: #ABF689;
+    --accent-400: #87E150;
+    --accent-500: #60B81D;
+    --accent-600: #4D930A;
+    --accent-700: #3E6F02;
+    --accent-800: #2D4B00;
+    --accent-900: #1A2600;
+
+    /* Neutral */
+    --neutral-100: #FCFBFA;
+    --neutral-200: #ECE8E5;
+    --neutral-300: #DBD5D1;
+    --neutral-400: #CBC2BE;
+    --neutral-500: #BAAFAB;
+    --neutral-600: #958B88;
+    --neutral-700: #706866;
+    --neutral-800: #4B4544;
+    --neutral-900: #262322;
+    
+
+    --font-family: poppins;
+    --white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .App-link {
+    color: #61dafb;
+} */

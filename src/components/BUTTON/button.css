@@ -1,0 +1,11 @@
+.btn__s {
+    width: 132px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    outline: none;
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+}

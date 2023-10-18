@@ -1,0 +1,13 @@
+.hornet {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.hornet__hor {
+    color: #FFFFFF;
+}
+
+.hornet__net {
+    color: #62230D;
+}
