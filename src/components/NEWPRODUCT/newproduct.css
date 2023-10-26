@@ -1,0 +1,24 @@
+.newproducts {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+.newproduct__container {
+    padding: 0 60px 60px 60px;
+}
+
+.newproduct__title {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+
+.newproduct__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    color: #111111;
+    text-align: center;
+}
+

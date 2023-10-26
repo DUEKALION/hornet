@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "title": "Jackets",
+        "url": "https://via.placeholder.com/600/92c952"
+      },
+      {
+        "id": 2,
+        "title": "Sweaters",
+        "url": "https://via.placeholder.com/600/771796"
+      },
+      {
+        "id": 3,
+        "title": "Boxers",
+        "url": "https://via.placeholder.com/600/24f355"
+      },
+      {
+        "id": 4,
+        "title": "Shirts",
+        "url": "https://via.placeholder.com/600/d32776"
+      },
+      {
+        "id": 5,
+        "title": "Chinos",
+        "url": "https://via.placeholder.com/600/f66b97"
+      },
+      {
+        
+        "id": 6,
+        "title": "Jeans Trouser",
+        "url": "https://via.placeholder.com/600/56a8c2"
+      },
+      {
+        "id": 7,
+        "title": "Tees and Polos",
+        "url": "https://via.placeholder.com/600/b0f7cc"
+      },
+      {
+        "id": 8,
+        "title": "Checkers",
+        "url": "https://via.placeholder.com/600/54176f"
+      }
+]

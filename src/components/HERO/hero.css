@@ -1,5 +1,100 @@
 
 .hero {
-    
     background-color: #894A29;
+}
+
+.Hero__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+}
+
+.Hero__content-1, .Hero__content-2 {
+    display: flex;
+    width: 50%;
+}
+
+.Hero__content-1 {
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.Hero__content-1-title {
+    width: 613px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 64px;
+    color: var(--white);
+}
+
+.Hero__content-1-text {
+    width: 613px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--white);
+}
+
+.Hero__content-1-button {
+    width: 221px;
+}
+
+.Hero__content-2 {
+    justify-content: flex-end;
+}
+.image1 {
+    width: 75%;
+    height: 650px;
+    border-bottom-left-radius: 7rem;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+
+    .Hero__content {
+        flex-direction: column;
+        padding: 50px;        
+    }
+    
+    .Hero__content-2 {
+        order: 1;
+        width: 100%;
+    }
+
+    .Hero__content-1 {
+        order: 2;
+        width: 100%;
+    }
+
+    .image1 {
+        width: 100%;
+    }
+
+    .Hero__content-1-title, .Hero__content-1-text {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .Hero__content {
+        gap: 2rem;
+    }
+
+    .Hero__content-1-title {
+        font-size: 40px;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    .Hero__content {
+        padding: 30px;
+    }
+
 }

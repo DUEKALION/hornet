@@ -15,8 +15,17 @@ export const Button__small = ({title, bck_color}) => {
 
 export const Button__medium = ({title, bck_color}) => {
   return (
-    <button className='btn__m' style={{ color: bck_color}}>
+    <button className='btn__m' style={{ backgroundColor: bck_color}}>
         {title}
+    </button>
+  )
+}
+
+export const Newproduct__button = ({ title, bck_color }) => {
+
+  return (
+    <button className="btn__np" style={{ backgroundColor: bck_color}}>
+      {title}
     </button>
   )
 }

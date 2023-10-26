@@ -1,0 +1,39 @@
+.newItems {
+   display: flex;
+   width: 25%;
+   height: 541px;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.newItems__img {
+    height: 400px;
+    width: auto;
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
+.newItems__title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.newItems__price {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .newItems {
+        width: 50%;
+        height: 500px;
+    }
+
+
+    .newItems__img {
+        width: auto;
+    }
+}
