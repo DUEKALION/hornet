@@ -7,7 +7,7 @@ export const Categories = () => {
     const [dataItem, setDataItem] = useState(dataset);
     
   return (
-    <>
+    <div className='categories__container'>
     <h1 className='categories__title'> Categories </h1>
     <p className='categories__text'>
       Our Men's Fashion Selection Has Everything You Need!
@@ -17,6 +17,6 @@ export const Categories = () => {
         <Item key={item.id} item={item} />
        ))}
     </div>
-    </>
+    </div>
   )
 }

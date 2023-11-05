@@ -26,12 +26,12 @@ export const Nav = () => {
         <Link to="/product" className='navbar--links'>Product</Link>
         <Link to="/contact" className='navbar--links'>Contact</Link>
 
-        <BiSearchAlt2 className="searchIcon" />
+        <Link to="/search"> <BiSearchAlt2 className="searchIcon" /> </Link>
 
         <div className='button__nav'>
-          <Button__small className="btn_borderless btn__1" title="sign in" bck_color="transparent"/>
+         <Link to="sign_in"> <Button__small className="btn_borderless btn__1" title="sign in" bck_color="transparent"/></Link>
           {/* <span className='line'></span> */}
-          <Button__small className="btn_borderless" title="sign up" bck_color="#62230D"/>
+         <Link to="sign_up"> <Button__small className="btn_borderless" title="sign up" bck_color="#62230D"/> </Link>
         </div>
 
       </div>

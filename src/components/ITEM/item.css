@@ -9,7 +9,7 @@
 }
 
 .categories__items {
-    width: 20%;
+    width: 22%;
     height: 340px;
 }
 
@@ -22,8 +22,15 @@
 
 .categories {
     display: flex;
-    
 }
+
+/* @media screen and (max-width: 1500px) {
+
+    .categories__items {
+        width: 31%;
+        height: auto;
+    }
+} */
 
 @media screen and (max-width: 900px) {
     
@@ -33,10 +40,17 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
     .categories__items {
         width: 45%;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    
+    .categories__items {
+        width: 100%;
     }
 }

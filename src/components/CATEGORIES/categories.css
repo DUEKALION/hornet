@@ -1,11 +1,14 @@
+.categories__container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px 100px 100px;
+}
 
 .categories {
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 10px 10px 60px 10px;
-    flex-wrap: wrap;
-    flex: 4;
+    flex-wrap:wrap;
     margin-top: 1rem;
 }
 
@@ -32,11 +35,15 @@
     }
 
     .categories__text {
+        font-family: var(--font-family);
         font-size: 18px;
     }
     
     .categories__title {
-        font-size: 32px;
+        font-family: 'Frank Ruhl Libre',sans-serif;
+        font-weight: 700;
+        font-size: 48px;
+        color: #111111;
     }
 
    

@@ -1,6 +1,6 @@
 .newItems {
    display: flex;
-   width: 25%;
+   width: 22%;
    height: 541px;
    flex-direction: column;
    gap: 10px;
@@ -25,15 +25,17 @@
     font-size: 20px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
     
     .newItems {
-        width: 50%;
+        width: 45%;
         height: 500px;
     }
+}
 
-
-    .newItems__img {
-        width: auto;
+@media screen and (max-width: 468px) {
+    
+    .newItems {
+        width: 100%;
     }
 }

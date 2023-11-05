@@ -1,0 +1,59 @@
+.newsletter__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px 100px 100px 100px;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.newsletter__header {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #111111;
+    text-align: center;
+}
+
+.newsletter__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 22px;
+    color: #111111;
+    text-align: center;
+}
+
+.newsletter__form {
+    display: flex;
+    width: 555px;
+    height: 66px;
+    border: 1px solid #62230D;
+    border-radius: 10px;
+}
+
+.newsletter__input {
+    width: 60%;
+    height: auto;
+    /* border: 0.1px solid #62230D; */
+    border: none;
+    border-radius: 10px;   
+}
+
+.btn__subscribe {
+    width: 40%;
+    height: auto;
+    background-color: #62230D;
+    color: var(--white);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+}

@@ -9,7 +9,6 @@ export const Hero = () => {
   
   return (
     <div className="hero">
-        <Nav />
 
         <div className="Hero__content">
 
